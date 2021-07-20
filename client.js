@@ -1,5 +1,5 @@
 const employees = [
-  {
+  { 
     name: 'Atticus',
     employeeNumber: '2405',
     annualSalary: '47000',
@@ -30,6 +30,23 @@ const employees = [
     reviewRating: 1
   }
 ];
+
+  for (let employee of employees) {
+  let updatedEmployeeInfo = determineEmployeeBonus(employee)  
+  console.log(updatedEmployeeInfo);
+   }
+function determineEmployeeBonus( employee ){
+  let updatedEmployeeInfo= {
+    name: 'name',
+    bonusPercentage: 'bonus percentage',
+    totalCompensation: 'total compensation' ,
+    totalBonus: 'total bonus'
+    
+  }
+  return updatedEmployeeInfo;
+ }
+
+
 
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
