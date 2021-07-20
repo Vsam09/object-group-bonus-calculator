@@ -31,10 +31,6 @@ const employees = [
   }
 ];
 
-  for (let employee of employees) {
-  let updatedEmployeeInfo = determineEmployeeBonus(employee)  
-  console.log(updatedEmployeeInfo);
-   }
 function determineEmployeeBonus( employee ){
   let updatedEmployeeInfo= {
     name: 'name',
@@ -44,10 +40,33 @@ function determineEmployeeBonus( employee ){
     
   }
   return updatedEmployeeInfo;
+} 
+ for (let employee of employees) {
+  let updatedEmployeeInfo = determineEmployeeBonus(employee)  
+  console.log(updatedEmployeeInfo);
+   
+ if (employees.reviewRating <= 2){
+   
+   
  }
 
+ if (employees.reviewRating === 3){
 
+ }
 
+ if (employees.reviewRating === 4){
+
+ }
+
+ if (employees.reviewRating === 5){
+
+ }
+
+ if (employees.employeeNumber){
+ 
+ }
+ console.log('aahhh')
+ }
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
 // Take small steps! Don't write a for loop and two functions that do all of the calculations right away.
